@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Inter:wght@100&family=Lora:ital,wght@0,400;1,500&family=Montserrat:wght@100;400;500&family=Noto+Serif&family=Poppins:wght@100;300;400&family=Smooch&family=Work+Sans:wght@100&display=swap');
+@import url('../bs/animate.css');
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #dadada;
+}
+
+/*Navbar*/
+
+.logoNav {
+    width: 200px;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #f5e4e4;
+    font-weight: 550;
+}
+
+.actives {
+    border-bottom: 4px solid #ffffff;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.sidebar-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 550;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.side-list {
+    margin-left: -25px;
+}
+
+.sidebar-item {
+    border-bottom: 1px solid #dadada;
+    width: 300px;
+}
+
+/*End Navbar*/
+
+/*Promo*/
+.img-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.promo-p {
+    font-size: 2em;
+    padding: 10px;
+    max-width: 450px;
+    margin: 30px auto 0 auto;
+    color: #ffffff;
+    background-color: #ed212e;
+}
+
+.promo-img {
+    width: 450px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.button-promo {
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+}
+
+.promos-img {
+    width: 50%;
+}
+/*End Promo*/
+
+/*Carousel*/
+.carousel-row {
+    margin: 220px 0 220px 0;
+}
+
+.title-cars {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 3px 7px rgba(0,0,0,0.6);
+}
+
+.desk-cars {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 3px 7px rgba(0,0,0,0.6);
+}
+
+/*End Carousel*/
+
+/*About Me*/
+.about-img {
+    width: 75%;
+    object-fit: cover;
+    height: 95%;
+}
+.title-section-about {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(235, 8, 8);
+    font-family: 'Roboto', sans-serif;
+}
+.nama-about {
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.about-desk {
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.about-btn {
+    background-color: #ed212e;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    font-size: 0.8em;
+    font-family: 'Poppins', sans-serif;
+}
+/*About Me*/
+
+/*Produk*/
+.produk-img {
+    width: 80%;
+    height: 300px;
+    object-fit: fill;
+}
+
+.produk-list {
+    text-decoration: none;
+}
+
+.tipe-mobils {
+    color: transparent;
+    font-size: 1em;
+    margin-top: -110px;
+    position: relative;
+    margin-left: 100px;
+}
+
+
+.produk-list:hover .tipe-mobils {
+    color: #ed212e;
+    text-shadow: 1px 3px 7px rgb(255, 255, 255);
+    /*Tambahkan animasi ke elemen*/
+    animation-name: animate__animated animate__fadeInLeft;
+    animation-duration: 1s;
+}
+
+
+.nama-mobils {
+    font-size: 1.7em;
+    position: relative;
+    color: transparent;
+    margin-left: 100px;
+}
+
+.produk-list:hover .nama-mobils {
+    color: #fff;
+    text-shadow: 1px 3px 7px rgb(255, 255, 255);
+}
+
+.produk-list:hover .backgrounds-product {
+    position: relative;
+    width: 80%;
+    margin: -280px auto 0 auto;
+    box-shadow: 10px -38px 400px 194px rgba(0,0,0,0.55) inset;
+    -webkit-box-shadow: 10px -38px 400px 194px rgba(0,0,0,0.55) inset;
+    -moz-box-shadow: 10px -38px 400px 194px rgba(0,0,0,0.55) inset;
+    transition: box-shadow 0.4s ease-in-out;
+    -webkit-transition: box-shadow 0.4s ease-in-out;
+    -moz-transition: box-shadow 0.4s ease-in-out;
+}
+
+.pluses {
+    color: transparent;
+    margin-top: -200px;
+    margin-left: 400px;
+    position: absolute;
+}
+
+.produk-list:hover .pluses {
+    color: #fff;
+}
+.pluses:hover {
+    color: rgb(94, 94, 240);
+}
+/*Produk*/
+
+
+/*Footer*/
+.footer {
+    background-color: #ed212e;
+    color: #ffffff;
+    margin-top: 80px;
+}
+
+.title-footer {
+    font-size: 1.4em;
+    font-weight: 650;
+}
+
+.about-footer {
+    font-size: 0.9em;
+}
+
+.link-footer {
+    font-size: 1em;
+    color: #ffffff;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.icon-footer-contact {
+    font-weight: 550;
+}
+
+.footer-img {
+    width: 100%;
+}
+
+.copyrightes {
+    background-color: rgb(235, 8, 8);
+}
+/*End Footer*/
+
+/*Artikel*/
+.artikel-img {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+}
+
+.artikel-link {
+    text-decoration: none;
+}
+
+.dividers-artikel-shadow {
+    position: relative;
+    margin-top: -300px;
+    background-color: transparent;
+    color: transparent;
+}
+
+.artikel-link:hover .dividers-artikel-shadow {
+    box-shadow: 10px -38px 400px 194px rgba(0,0,0,0.55) inset;
+    -webkit-box-shadow: 10px -38px 400px 194px rgba(0,0,0,0.55) inset;
+    -moz-box-shadow: 10px -38px 400px 194px rgba(0,0,0,0.55) inset;
+    color: #fff;
+    transition: box-shadow 0.4s ease-in-out;
+    -webkit-transition: box-shadow 0.4s ease-in-out;
+    -moz-transition: box-shadow 0.4s ease-in-out;
+}
+
+.title-artikel {
+    color: #000;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.title-artikel:hover {
+    color: #ed212e;
+}
+
+.tipe-artikel {
+    margin-top: -300px;
+    position: absolute;
+    font-size: 1.2em;
+    margin-left: 300px;
+}
+/*End Artikel*/
+
+.nav-android {
+    display: none;
+}
+
+/*List Mobil*/
+.title-type {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.sub-type {
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: -5px;
+}
+/*End List Mobil*/
+
+@media screen and (max-width: 650px) {
+    /*Promo*/
+    .promo-p {
+        font-size: 1.3em;
+        padding: 10px;
+        max-width: 360px;
+    }
+
+    .promo-img {
+        width: 360px;
+        margin-top: 20px;
+    }
+
+    .button-promo {
+        color: #fff;
+    }
+    /*End Promo*/
+    /*Carousel*/
+    .carousel-row {
+        margin: 100px 0 70px 0;
+    }
+
+    .title-cars {
+        font-size: 2em;
+        color: #fff;
+    }
+
+    .desk-cars {
+        font-size: 1em;
+        color: #fff;
+    }
+    /*End Carousel*/
+    /*About Me*/
+    .about-img {
+        width: 90%;
+        height: 90%;
+    }
+    .title-section-about {
+        font-size: 1.3em;
+    }
+    .nama-about {
+        font-size: 1.6em;
+    }
+    .about-desk {
+        font-size: 0.8em;
+    }
+
+    .about-btn {
+        padding: 10px 15px 10px 15px;
+        font-size: 0.8em;
+    }
+    /*About Me*/
+    /*Produk*/
+    .produk-img {
+        width: 90%;
+        height: 300px;
+        object-fit: fill;
+    }
+
+    .tipe-mobils {
+        font-size: 1em;
+        margin-top: -110px;
+        margin-left: 50px;
+    }
+    .nama-mobils {
+        font-size: 1.7em;
+        margin-left: 70px;
+    }
+
+    .produk-list:hover .backgrounds-product {
+        width: 90%;
+        margin: -280px auto 0 auto;
+    }
+    .pluses {
+        color: transparent;
+        margin-top: -200px;
+        margin-left: 280px;
+        position: absolute;
+    }
+    
+    .produk-list:hover .pluses {
+        color: #fff;
+    }
+
+    .tipe-artikel {
+        margin-top: -300px;
+        position: absolute;
+        font-size: 1.2em;
+        margin-left: 0px;
+    }
+
+    .promos-img {
+        width: 330px;
+    }
+    /*Produk*/
+
+    .nav-android {
+        max-width: 380px;
+        width: 380px;
+        display: block;
+    }
+
+    .nav-desk-bottom {
+        font-size:0.8em;
+        margin-bottom: -10px;
+    }
+
+    .nav-link-bottom {
+        text-decoration: none;
+    }
+    
+    .nav-border-bottom {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 1px solid #ffffff;
+    }
+
+    /*List Mobil*/
+    .title-type {
+        font-size: 1.4em;
+    }
+
+    .sub-type {
+        font-size: 0.9em;
+    }
+    /*End List Mobil*/
+}
